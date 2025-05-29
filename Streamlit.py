@@ -2,7 +2,6 @@
 import streamlit as st
 import numpy as np
 import joblib
-pip install -r requirements.txt
 
 # Load model and scaler
 clf = joblib.load("malware_model.pkl")
